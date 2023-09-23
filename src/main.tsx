@@ -44,9 +44,7 @@ const eoaWallets = [
   metamaskWallet({
     recommended: true,
   }),
-  coinbaseWallet({
-    recommended: true,
-  }),
+  coinbaseWallet(),
   walletConnect({
     recommended: true,
   }),
