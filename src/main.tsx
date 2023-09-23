@@ -47,7 +47,9 @@ const eoaWallets = [
   coinbaseWallet({
     recommended: true,
   }),
-  walletConnect(),
+  walletConnect({
+    recommended: true,
+  }),
   trustWallet(),
   rainbowWallet(),
   zerionWallet(),
