@@ -89,7 +89,7 @@ function AppContainer() {
       // })}
       activeChain="optimism-goerli"
       key={wallets.map((w) => w.id).join(",") + enableSmartWallet}
-      clientId={import.meta.env.VITE_TEMPLATE_CLIENT_ID}
+      clientId="b3b2f0559e859ef264eadf2fae39182c"
       supportedWallets={walletConfigs}
       supportedChains={[...defaultChains, FncyTestnet]}
     >
