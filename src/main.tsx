@@ -69,7 +69,7 @@ function AppContainer() {
   const walletConfigs = enableSmartWallet
     ? wallets.map((wallet) =>
         smartWallet(wallet, {
-          factoryAddress: "0x219312a1c180B82abEE14FbDB4C9EE04E90c1809",
+          factoryAddress: "0xfd26ee8997A80871Ad37aCa2Ce98BA27c9299D97",
           gasless: true,
         })
       )
@@ -87,7 +87,7 @@ function AppContainer() {
       //     connectedButtonBg: "black",
       //   },
       // })}
-      activeChain="mumbai"
+      activeChain="optimism-goerli"
       key={wallets.map((w) => w.id).join(",") + enableSmartWallet}
       clientId={import.meta.env.VITE_TEMPLATE_CLIENT_ID}
       supportedWallets={walletConfigs}
