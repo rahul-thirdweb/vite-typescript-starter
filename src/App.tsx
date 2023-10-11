@@ -1,9 +1,12 @@
 import { ConnectWallet, Web3Button, darkTheme } from "@thirdweb-dev/react";
+import { Analytics } from '@vercel/analytics/react';
+
 import "./styles/Home.css";
 
 export default function Home() {
   return (
     <main className="main">
+      <Analytics />
       <div className="connect">
         {/* <p> wide modal </p> */}
         <ConnectWallet
@@ -13,6 +16,8 @@ export default function Home() {
             align: "center",
           }}
         />
+        
+
 
         {/* {spacer} */}
 
