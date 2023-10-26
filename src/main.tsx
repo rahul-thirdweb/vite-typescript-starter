@@ -89,7 +89,7 @@ function AppContainer() {
       // })}
       activeChain="optimism-goerli"
       key={wallets.map((w) => w.id).join(",") + enableSmartWallet}
-      clientId={process.env.CLIENT_ID,}
+      clientId={process.env.CLIENT_ID}
       supportedWallets={walletConfigs}
       supportedChains={[...defaultChains, FncyTestnet]}
     >
