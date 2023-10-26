@@ -1799,7 +1799,7 @@
     "mime" "3.0.0"
     "tiny-invariant" "^1.2.0"
 
-"@thirdweb-dev/react@3.16.0-nightly-2ce89cfe-20230922131033":
+"@thirdweb-dev/react@^3.16.0-nightly-2ce89cfe-20230922131033":
   "integrity" "sha512-qwTmPnqmm6j6+neFdjnyWJPMqvnAVltmxHgHbxJOm08ZAMRiP9mBiHO5AxrNbdEKi3vVJsyFSsRHf4gjV6O/6A=="
   "resolved" "https://registry.npmjs.org/@thirdweb-dev/react/-/react-3.16.0-nightly-2ce89cfe-20230922131033.tgz"
   "version" "3.16.0-nightly-2ce89cfe-20230922131033"
